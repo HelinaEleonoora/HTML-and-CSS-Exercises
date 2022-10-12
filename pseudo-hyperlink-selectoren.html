@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectoren.</title>
+    <style>
+        body {font-family: 'Lucida Sans', Geneva, Verdana, sans-serif;
+              font-size: 1.2em;}
+        a:active  {font-weight: bold;}
+        a:link    {text-decoration: none; border: thin black solid;}
+        /* a:hover   {color: crimson;} */
+        a:visited {color: lightgrey;}
+        p:hover {border: thin black solid;
+                 border-radius: 20px;}
+        p:first-line {font-weight: bold;}
+        p:first-letter {font-size: 3em;}
+
+        .myButton {
+            box-shadow:inset 0px 1px 6px 0px #43bdb77b;
+            background-color:#ededed;
+            border-radius:6px;
+            border:2px solid #8beb9d71;
+            display:inline-block;
+            cursor:pointer;
+            color:#000000;
+            font-family:Arial;
+            font-size:21px;
+            font-weight:bold;
+            padding:6px 24px;
+            text-decoration:none;
+            text-shadow:0px 1px 0px #ffffff;
+            /* min-width: 200px; */
+        }
+        .myButton:hover {
+            background-color:#dfdfdf;
+        }
+        .myButton:active {
+            position:relative;
+            top:1px;
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro fugit fuga iste, hic aliquid voluptates labore cupiditate molestiae itaque, voluptatum eos. Modi illo repellat corrupti <a href="#" class="myButton">Knopje</a> earum ullam eaque magni inventore voluptas animi nesciunt laboriosam velit obcaecati distinctio dolorum minima repudiandae vero ab suscipit amet hic. Quas esse voluptates ea adipisci suscipit perferendis et nam velit accusantium maxime numquam delectus ullam, facere quaerat incidunt. Saepe iste rerum consectetur porro iusto neque atque, est culpa reprehenderit nostrum ullam ipsam.</p>
+    <a href="#" class="myButton">Klik</a><a href="#" class="myButton">Hier</a><a href="#" class="myButton">Ook</a>
+</body>
+</html>
