@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animatie2</title>
+    <style>
+        body    
+        {
+        text-align: center;
+        animation: kenburns-top 60s ease-out both;
+        height: 100vh;
+        margin: 0;
+        background-color: rgba(255, 20, 147, .1);
+        }
+
+        @keyframes kenburns-top {
+        0% {
+            transform: scale(1) translateY(0);
+            transform-origin: 50% 16%;
+        }
+        100% {
+            transform: scale(1.25) translateY(-15px);
+            transform-origin: top;
+        }
+        }
+        @keyframes kenburns-top {
+        0% {
+            transform: scale(1) translateY(0);
+            transform-origin: 50% 16%;
+        }
+        100% {
+            transform: scale(1.25) translateY(-15px);
+            transform-origin: top;
+        }
+        }
+
+        h1          
+        {    animation: bounce-in-top 6s both;
+            color: rgba(75, 0, 130, .5);
+            font-size: 10em;
+        }
+
+        @keyframes bounce-in-top 
+        {
+        0% {
+                transform: translateY(-500px);
+                animation-timing-function: ease-in;
+                opacity: 0;
+        }
+        38% {
+        
+                transform: translateY(0);
+                animation-timing-function: ease-out;
+                opacity: 1;
+        }
+        55% {
+                transform: translateY(-65px);
+                animation-timing-function: ease-in;
+        }
+        72% {
+                transform: translateY(0);
+                animation-timing-function: ease-out;
+        }
+        81% {
+                transform: translateY(-28px);
+                animation-timing-function: ease-in;
+        }
+        90% {
+                transform: translateY(0);
+                animation-timing-function: ease-out;
+        }
+        95% {
+                transform: translateY(-8px);
+                animation-timing-function: ease-in;
+        }
+        100% {
+                transform: translateY(0);
+                animation-timing-function: ease-out;
+        }
+        }
+        @keyframes bounce-in-top {
+        0% {
+                transform: translateY(-500px);
+                animation-timing-function: ease-in;
+                opacity: 0;
+        }
+        38% {
+                transform: translateY(0);
+                animation-timing-function: ease-out;
+                opacity: 1;
+        }
+        55% {
+                transform: translateY(-65px);
+                animation-timing-function: ease-in;
+        }
+        72% {
+
+                transform: translateY(0);
+                animation-timing-function: ease-out;
+        }
+        81% {
+                transform: translateY(-28px);
+                animation-timing-function: ease-in;
+        }
+        90% {
+                transform: translateY(0);
+                animation-timing-function: ease-out;
+        }
+        95% {
+                transform: translateY(-8px);
+                animation-timing-function: ease-in;
+        }
+        100% {
+                transform: translateY(0);
+                animation-timing-function: ease-out;
+        }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Animation</h1>
+</body>
+</html>

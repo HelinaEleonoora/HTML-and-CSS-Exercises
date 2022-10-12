@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calc variabelen</title>
+
+    <style>
+        * {margin:0;}
+        body {
+            --pagina-padding: 10px;
+        }
+        
+        #hoofd {padding: var(--pagina-padding);
+                height: calc(100vh - (2 * var(--pagina-padding)));}
+        
+        #boven {background-color:lightpink;
+                --pagina-padding: 5rem;}
+
+        #boven div {padding: var(--pagina-padding);}
+        
+        #midden {background-color: lightblue;}
+        
+        #beneden {background-color:lightgoldenrodyellow;}
+
+        div > div {height: calc(100% / 3);}
+    </style>
+
+</head>
+
+<body>
+    <div id="hoofd">
+            <div id="boven">boven</div>
+       
+            <div id="midden">midden</div>
+         
+            <div id="beneden">beneden</div>
+         
+</body>
+</html>

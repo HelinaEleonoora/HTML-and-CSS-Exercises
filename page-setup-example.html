@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voorbeeld pagina stuctuur</title>
+    <style>
+        
+        body, 
+        main * {
+                margin: 0;}
+        main {
+            
+                background-color: rgb(215, 250, 246);
+                width: 960px;
+                min-height: 100vh;
+                /*margin-right: auto; margin-left: auto; */
+                margin: 0 auto;
+            }
+header {
+                background-color: rgba(42, 165, 46, 0.5);
+                color: rgb(247, 247, 241);
+                height: 180px;
+        }
+
+main header h1 { font-size: 130%;   
+                 padding-left: 1em;
+                
+}
+
+nav {
+                width: 25%;
+                background-color: rgba(169, 230, 237, .5);
+                min-height: 100vh;
+                float: left;
+                min-height: calc(100vh -180 px);
+}
+section {       width: 75%;
+                background-color: rgba(237, 230, 169, .5);
+                float: left;
+}
+section:nth-child(even) {
+                background-color: rgba(238, 130, 238, .5);}
+
+figure{         float: left;
+
+}
+section:nth-child(even) figure 
+                {float: right;}
+
+footer         {height: 180px;
+                background-color: rgba(42, 165, 46, 0.5);
+                float: none;
+                clear: both;
+                }
+</style>
+</head>
+
+<body>
+    <main>
+<header>
+    <h1>De titel in de header</h1>
+</header>
+<nav>MENU</nav> <section>
+                <figure>
+                    <img src="dummy afbeelding.png" alt="">
+
+                </figure>
+                <h3>Kop van sectie</h3>
+                <p>Bijbehorende tekst</p>
+                </section>
+
+                <section>
+                    <figure>
+                        <img src="dummy afbeelding.png" alt="">
+    
+                    </figure>
+                    <h3>Kop van sectie</h3>
+                    <p>Bijbehorende tekst</p>
+                    </section>
+                    
+                    <section>
+                        <figure>
+                            <img src="dummy afbeelding.png" alt="">
+        
+                        </figure>
+                        <h3>Kop van sectie</h3>
+                        <p>Bijbehorende tekst</p>
+                        </section>
+
+                        <section>
+                            <figure>
+                                <img src="dummy afbeelding.png" alt="">
+            
+                            </figure>
+                            <h3>Kop van sectie</h3>
+                            <p>Bijbehorende tekst</p>
+                            </section>
+    
+<footer>
+    <p>Onderkant van de pagina</p>
+</footer>
+
+
+
+    </main>
+</body>
+</html>
+
+
